@@ -1,4 +1,5 @@
 # Программирование корпоративных систем
 ### Практическая работа №2 | Мякотных Сергей ЭФБО-02-22
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6f90ea06-f665-4394-a9cf-25592b78be2c)
+
