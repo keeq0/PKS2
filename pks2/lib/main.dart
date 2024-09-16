@@ -26,7 +26,7 @@ class Authorization extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Padding(padding: EdgeInsets.all(100.0),
+          Padding(padding: EdgeInsets.all(80.0),
           child: Center(
             child: Container(width: 300,
             child: Center(child:
@@ -38,7 +38,7 @@ class Authorization extends StatelessWidget {
           ), 
           
           const Padding(
-            padding: EdgeInsets.all(16.0),
+            padding: EdgeInsets.only(left: 16, right: 16, top: 8, bottom: 8),
             child: TextField(
               decoration: InputDecoration( 
                 hintText: 'Логин',
@@ -60,7 +60,7 @@ class Authorization extends StatelessWidget {
 
 
           const Padding(
-            padding:  EdgeInsets.all(16.0),
+            padding:  EdgeInsets.only(left: 16, right: 16, top: 8, bottom: 0),
             child: TextField(
               decoration: InputDecoration( 
                 hintText: 'Пароль',
@@ -88,7 +88,7 @@ class Authorization extends StatelessWidget {
                    onChanged: (value){},
                    checkColor: Color.fromARGB(255, 255, 0, 0),
                    ),
-                const Text("Запомнить меня", style: TextStyle(fontSize: 18, color: Colors.grey),),
+                const Text("Запомнить меня", style: TextStyle(fontSize: 16, color: Colors.grey),),
               ],
             ),
 
